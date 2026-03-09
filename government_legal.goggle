@@ -1,0 +1,217 @@
+! name: Government & Legal
+! description: Boosts authoritative government portals, legislative databases, courts, regulatory bodies, and international organizations worldwide
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Major Government Portals & International Organizations
+! ============================================================
+
+! --- Major National Government Portals ---
+$boost=5,site=gov.uk
+$boost=5,site=usa.gov
+$boost=5,site=canada.ca
+$boost=5,site=gov.au
+$boost=5,site=gov.ie
+$boost=5,site=government.nl
+$boost=5,site=service-public.fr
+$boost=5,site=bundesregierung.de
+$boost=5,site=gov.pl
+$boost=5,site=gobierno.es
+$boost=5,site=gov.sg
+$boost=5,site=india.gov.in
+$boost=5,site=japan.go.jp
+$boost=5,site=gov.za
+
+! --- Remi Supported Countries (additional portals) ---
+$boost=5,site=lrv.lt
+$boost=5,site=kenya.go.ke
+
+! --- International Organizations ---
+$boost=5,site=un.org
+$boost=5,site=europa.eu
+$boost=5,site=who.int
+$boost=5,site=worldbank.org
+$boost=5,site=imf.org
+$boost=5,site=oecd.org
+$boost=5,site=wto.org
+
+! ============================================================
+! TIER 4 — Legislative Databases & Major Government Agencies
+! ============================================================
+
+! --- Legislative Databases ---
+$boost=4,site=legislation.gov.uk
+$boost=4,site=congress.gov
+$boost=4,site=eur-lex.europa.eu
+$boost=4,site=legifrance.gouv.fr
+$boost=4,site=gesetze-im-internet.de
+$boost=4,site=boe.es
+$boost=4,site=e-tar.lt
+$boost=4,site=isap.sejm.gov.pl
+$boost=4,site=oireachtas.ie
+$boost=4,site=parlamento.it
+$boost=4,site=laws-lois.justice.gc.ca
+$boost=4,site=legislation.gov.au
+$boost=4,site=e-gov.go.jp
+
+! --- Major Government Agencies (US) ---
+$boost=4,site=whitehouse.gov
+$boost=4,site=state.gov
+$boost=4,site=justice.gov
+$boost=4,site=irs.gov
+$boost=4,site=cdc.gov
+$boost=4,site=nih.gov
+$boost=4,site=fda.gov
+$boost=4,site=epa.gov
+$boost=4,site=sec.gov
+$boost=4,site=ftc.gov
+$boost=4,site=dol.gov
+$boost=4,site=energy.gov
+$boost=4,site=treasury.gov
+
+! --- Major Government Agencies (UK) ---
+$boost=4,site=parliament.uk
+$boost=4,site=nhs.uk
+
+! --- EU Institutions ---
+$boost=4,site=europarl.europa.eu
+$boost=4,site=consilium.europa.eu
+$boost=4,site=ec.europa.eu
+
+! ============================================================
+! TIER 3 — Legal Databases, Courts & Regulatory Bodies
+! ============================================================
+
+! --- Free Legal Information Institutes ---
+$boost=3,site=law.cornell.edu
+$boost=3,site=bailii.org
+$boost=3,site=canlii.ca
+$boost=3,site=austlii.edu.au
+$boost=3,site=worldlii.org
+$boost=3,site=saflii.org
+
+! --- Courts ---
+$boost=3,site=supremecourt.gov
+$boost=3,site=uscourts.gov
+$boost=3,site=judiciary.uk
+$boost=3,site=icc-cpi.int
+$boost=3,site=icj-cij.org
+$boost=3,site=echr.coe.int
+$boost=3,site=curia.europa.eu
+$boost=3,site=hcourt.gov.au
+$boost=3,site=scc-csc.ca
+
+! --- International Legal & Human Rights ---
+$boost=3,site=ohchr.org
+$boost=3,site=unicef.org
+$boost=3,site=unhcr.org
+$boost=3,site=ilo.org
+$boost=3,site=wipo.int
+$boost=3,site=coe.int
+
+! --- Data Protection Authorities ---
+$boost=3,site=ico.org.uk
+$boost=3,site=cnil.fr
+$boost=3,site=bfdi.bund.de
+$boost=3,site=aepd.es
+$boost=3,site=edpb.europa.eu
+$boost=3,site=ada.lt
+
+! --- IP and Patent Offices ---
+$boost=3,site=uspto.gov
+$boost=3,site=epo.org
+$boost=3,site=ipo.gov.uk
+$boost=3,site=oepm.es
+
+! ============================================================
+! TIER 2 — Regional Government, Specialized Agencies & Tax
+! ============================================================
+
+! --- Tax Authorities ---
+$boost=2,site=agenciatributaria.es
+$boost=2,site=impots.gouv.fr
+$boost=2,site=bzst.de
+$boost=2,site=vmi.lt
+$boost=2,site=kra.go.ke
+$boost=2,site=ato.gov.au
+$boost=2,site=cra-arc.gc.ca
+$boost=2,site=revenue.ie
+
+! --- Statistics & Census Offices ---
+$boost=2,site=census.gov
+$boost=2,site=ons.gov.uk
+$boost=2,site=ine.es
+$boost=2,site=insee.fr
+$boost=2,site=destatis.de
+$boost=2,site=stat.gov.pl
+$boost=2,site=stat.gov.lt
+$boost=2,site=knbs.or.ke
+$boost=2,site=abs.gov.au
+$boost=2,site=statcan.gc.ca
+$boost=2,site=eurostat.ec.europa.eu
+
+! --- Financial Regulators ---
+$boost=2,site=fca.org.uk
+$boost=2,site=bafin.de
+$boost=2,site=cnmv.es
+$boost=2,site=amf-france.org
+$boost=2,site=lb.lt
+
+! --- Other Specialized International Bodies ---
+$boost=2,site=nato.int
+$boost=2,site=iaea.org
+$boost=2,site=fao.org
+$boost=2,site=unep.org
+$boost=2,site=undp.org
+$boost=2,site=au.int
+$boost=2,site=asean.org
+
+! --- Other National Portals ---
+$boost=2,site=rwandapedia.rw
+$boost=2,site=gov.rw
+$boost=2,site=governo.it
+$boost=2,site=regeringen.se
+$boost=2,site=regjeringen.no
+$boost=2,site=government.se
+$boost=2,site=admin.ch
+$boost=2,site=governo.pt
+$boost=2,site=gov.br
+
+! ============================================================
+! TIER 1 — Supplementary Official Sources
+! ============================================================
+
+! --- Legal Reference & Research ---
+$boost=1,site=loc.gov
+$boost=1,site=gpo.gov
+$boost=1,site=federalregister.gov
+$boost=1,site=regulations.gov
+$boost=1,site=govinfo.gov
+
+! --- Additional EU & European Sources ---
+$boost=1,site=efta.int
+$boost=1,site=osce.org
+$boost=1,site=ecb.europa.eu
+
+! --- Additional Specialized Agencies ---
+$boost=1,site=interpol.int
+$boost=1,site=unodc.org
+$boost=1,site=itu.int
+$boost=1,site=wmo.int
+$boost=1,site=unido.org
+
+! --- Development & Aid ---
+$boost=1,site=adb.org
+$boost=1,site=afdb.org
+$boost=1,site=ebrd.com
+$boost=1,site=iadb.org
+
+! --- Electoral & Democracy ---
+$boost=1,site=idea.int
+$boost=1,site=venice.coe.int
+
+! --- Standards & Trade ---
+$boost=1,site=iso.org
+$boost=1,site=unctad.org
+$boost=1,site=unece.org

@@ -1,0 +1,161 @@
+! name: Travel & Transit
+! description: Boosts authoritative travel guides, public transport operators, journey planners, and booking platforms worldwide
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Global multi-modal journey planners
+! ============================================================
+$boost=5,site=rome2rio.com
+$boost=5,site=seat61.com
+$boost=5,site=omio.com
+/travel^$boost=5,site=google.com
+
+! ============================================================
+! TIER 4 — Major national rail operators
+! ============================================================
+
+! Europe
+$boost=4,site=eurostar.com
+$boost=4,site=bahn.de
+$boost=4,site=sncf.com
+$boost=4,site=sncf-connect.com
+$boost=4,site=renfe.com
+$boost=4,site=trenitalia.com
+$boost=4,site=sbb.ch
+$boost=4,site=ns.nl
+$boost=4,site=belgiantrain.be
+$boost=4,site=cp.pt
+$boost=4,site=cd.cz
+$boost=4,site=pkp.pl
+$boost=4,site=vr.fi
+$boost=4,site=dsb.dk
+$boost=4,site=vy.no
+$boost=4,site=sj.se
+$boost=4,site=obb.at
+$boost=4,site=mav-start.hu
+$boost=4,site=nationalrail.co.uk
+$boost=4,site=trainline.com
+
+! North America
+$boost=4,site=amtrak.com
+$boost=4,site=viarail.ca
+
+! Asia
+$boost=4,site=jreast.co.jp
+$boost=4,site=westjr.co.jp
+$boost=4,site=jr-central.co.jp
+$boost=4,site=thsr.com.tw
+$boost=4,site=irctc.co.in
+$boost=4,site=letskorail.com
+$boost=4,site=12306.cn
+
+! Major transit authorities
+$boost=4,site=tfl.gov.uk
+$boost=4,site=mta.info
+$boost=4,site=ratp.fr
+$boost=4,site=bvg.de
+$boost=4,site=tmb.cat
+
+! ============================================================
+! TIER 3 — Booking platforms, travel guides, regional operators
+! ============================================================
+
+! Rail booking aggregators
+$boost=3,site=raileurope.com
+$boost=3,site=rail.ninja
+$boost=3,site=thetrainline.com
+$boost=3,site=italotreno.it
+$boost=3,site=ouigo.com
+$boost=3,site=eurail.com
+$boost=3,site=interrail.eu
+
+! Flight aggregators
+$boost=3,site=skyscanner.com
+$boost=3,site=kayak.com
+/flights^$boost=3,site=google.com
+$boost=3,site=momondo.com
+$boost=3,site=kiwi.com
+
+! Bus and coach operators
+$boost=3,site=flixbus.com
+$boost=3,site=greyhound.com
+$boost=3,site=nationalexpress.com
+$boost=3,site=busbud.com
+$boost=3,site=megabus.com
+$boost=3,site=alsa.com
+
+! Ferry operators
+$boost=3,site=directferries.com
+$boost=3,site=poferries.com
+$boost=3,site=dfds.com
+$boost=3,site=stenaline.com
+$boost=3,site=brittany-ferries.co.uk
+$boost=3,site=aferry.com
+
+! Travel guides
+$boost=3,site=lonelyplanet.com
+$boost=3,site=tripadvisor.com
+$boost=3,site=wikivoyage.org
+$boost=3,site=timeout.com
+$boost=3,site=culturetrip.com
+$boost=3,site=atlasobscura.com
+
+! Transit apps (web presence)
+$boost=3,site=citymapper.com
+$boost=3,site=moovit.com
+$boost=3,site=transitapp.com
+
+! Accommodation
+$boost=3,site=booking.com
+$boost=3,site=hostelworld.com
+
+! ============================================================
+! TIER 2 — Supplementary travel sites and regional operators
+! ============================================================
+
+! Ridesharing and car rental
+$boost=2,site=blablacar.com
+$boost=2,site=rentalcars.com
+$boost=2,site=discovercars.com
+
+! Regional transit authorities
+$boost=2,site=wmata.com
+$boost=2,site=mbta.com
+$boost=2,site=bart.gov
+$boost=2,site=cta.org
+$boost=2,site=translink.ca
+$boost=2,site=stm.info
+$boost=2,site=mvg.de
+$boost=2,site=atm.it
+$boost=2,site=stib-mivb.be
+$boost=2,site=gvb.nl
+
+! Australia and regional
+$boost=2,site=journeybeyondrail.com.au
+$boost=2,site=transportnsw.info
+$boost=2,site=ptv.vic.gov.au
+$boost=2,site=transperth.wa.gov.au
+
+! Travel planning and maps
+$boost=2,site=wanderlog.com
+$boost=2,site=roadtrippers.com
+$boost=2,site=frommers.com
+$boost=2,site=fodors.com
+$boost=2,site=ricksteves.com
+$boost=2,site=nomadicmatt.com
+$boost=2,site=japan-guide.com
+
+! ============================================================
+! TIER 1 — Niche operators and specialized resources
+! ============================================================
+/map^$boost=1,site=rome2rio.com
+$boost=1,site=openrailwaymap.org
+$boost=1,site=highspeedtrains.com
+$boost=1,site=comparabus.com
+$boost=1,site=checkmybus.com
+$boost=1,site=ferryhopper.com
+$boost=1,site=maps.me
+$boost=1,site=wikitravel.org
+$boost=1,site=caledoniansleeper.com
+$boost=1,site=nightjet.com

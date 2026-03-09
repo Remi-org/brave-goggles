@@ -1,0 +1,216 @@
+! name: Finance & Business
+! description: Boosts authoritative finance, business, economics, and entrepreneurship sources including financial data providers, business news, stock exchanges, central banks, personal finance, and regulatory bodies worldwide.
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Global economic institutions and primary financial
+!           data/regulatory bodies
+! ============================================================
+
+! International Monetary Fund
+$boost=5,site=imf.org
+
+! World Bank
+$boost=5,site=worldbank.org
+$boost=5,site=data.worldbank.org
+
+! Bank for International Settlements
+$boost=5,site=bis.org
+
+! OECD
+$boost=5,site=oecd.org
+
+! U.S. Securities and Exchange Commission / EDGAR
+$boost=5,site=sec.gov
+
+! U.S. Federal Reserve
+$boost=5,site=federalreserve.gov
+$boost=5,site=fred.stlouisfed.org
+
+! European Central Bank
+$boost=5,site=ecb.europa.eu
+
+! Bloomberg
+$boost=5,site=bloomberg.com
+
+! Reuters
+$boost=5,site=reuters.com
+
+! ============================================================
+! TIER 4 — Major business news, financial data providers,
+!           central banks, and stock exchanges
+! ============================================================
+
+! Business news — premium tier
+$boost=4,site=ft.com
+$boost=4,site=wsj.com
+$boost=4,site=economist.com
+
+! Financial data and analytics
+$boost=4,site=finance.yahoo.com
+$boost=4,site=marketwatch.com
+$boost=4,site=morningstar.com
+$boost=4,site=spglobal.com
+$boost=4,site=moodys.com
+$boost=4,site=fitchratings.com
+
+! Major stock exchanges
+$boost=4,site=nyse.com
+$boost=4,site=nasdaq.com
+$boost=4,site=londonstockexchange.com
+$boost=4,site=jpx.co.jp
+$boost=4,site=hkex.com.hk
+$boost=4,site=euronext.com
+$boost=4,site=sse.com.cn
+$boost=4,site=bseindia.com
+$boost=4,site=nseindia.com
+
+! Central banks — major economies
+$boost=4,site=bankofengland.co.uk
+$boost=4,site=boj.or.jp
+$boost=4,site=pbc.gov.cn
+$boost=4,site=rbi.org.in
+$boost=4,site=bankofcanada.ca
+$boost=4,site=rba.gov.au
+$boost=4,site=snb.ch
+$boost=4,site=bundesbank.de
+$boost=4,site=banque-france.fr
+
+! SEC equivalents
+$boost=4,site=fca.org.uk
+$boost=4,site=esma.europa.eu
+
+! Investopedia — financial education
+$boost=4,site=investopedia.com
+
+! ============================================================
+! TIER 3 — Business news outlets, regulatory bodies,
+!           and professional resources
+! ============================================================
+
+! Business news
+$boost=3,site=forbes.com
+$boost=3,site=fortune.com
+$boost=3,site=businessinsider.com
+$boost=3,site=cnbc.com
+$boost=3,site=barrons.com
+$boost=3,site=hbr.org
+
+! Startup and venture capital
+$boost=3,site=techcrunch.com
+$boost=3,site=crunchbase.com
+$boost=3,site=ycombinator.com
+$boost=3,site=wellfound.com
+$boost=3,site=pitchbook.com
+
+! Tax authorities
+$boost=3,site=irs.gov
+/government/organisations/hm-revenue-customs^$boost=3,site=gov.uk
+
+! Business registries
+$boost=3,site=find-and-update.company-information.service.gov.uk
+$boost=3,site=edgarcompany.sec.gov
+
+! Canada — SEDAR+
+$boost=3,site=sedarplus.ca
+
+! Financial research and think tanks
+$boost=3,site=nber.org
+$boost=3,site=brookings.edu
+$boost=3,site=piie.com
+
+! Central banks — additional
+$boost=3,site=bcb.gov.br
+$boost=3,site=bok.or.kr
+$boost=3,site=sarb.co.za
+$boost=3,site=bsp.gov.ph
+$boost=3,site=bi.go.id
+
+! Professional accounting bodies
+$boost=3,site=aicpa-cima.com
+$boost=3,site=ifrs.org
+$boost=3,site=fasb.org
+
+! ============================================================
+! TIER 2 — Personal finance, consumer financial tools,
+!           and supplementary business sources
+! ============================================================
+
+! Personal finance
+$boost=2,site=nerdwallet.com
+$boost=2,site=moneysavingexpert.com
+$boost=2,site=bankrate.com
+$boost=2,site=kiplinger.com
+$boost=2,site=fool.com
+$boost=2,site=goodrx.com
+$boost=2,site=creditkarma.com
+
+! Financial news — additional
+$boost=2,site=seekingalpha.com
+$boost=2,site=moneycontrol.com
+$boost=2,site=thestreet.com
+$boost=2,site=investorplace.com
+$boost=2,site=zacks.com
+
+! Cryptocurrency and fintech
+$boost=2,site=coindesk.com
+$boost=2,site=cointelegraph.com
+
+! Trade and commerce
+$boost=2,site=wto.org
+$boost=2,site=ifc.org
+$boost=2,site=trade.gov
+
+! Additional financial regulators
+$boost=2,site=asic.gov.au
+$boost=2,site=mas.gov.sg
+$boost=2,site=sebi.gov.in
+$boost=2,site=sfc.hk
+$boost=2,site=amf-france.org
+$boost=2,site=bafin.de
+$boost=2,site=consob.it
+
+! Insurance
+$boost=2,site=naic.org
+$boost=2,site=iii.org
+
+! ============================================================
+! TIER 1 — Supplementary trusted sources, regional exchanges,
+!           and niche financial resources
+! ============================================================
+
+! Regional business news
+$boost=1,site=livemint.com
+$boost=1,site=afr.com
+$boost=1,site=handelsblatt.com
+$boost=1,site=nikkei.com
+$boost=1,site=scmp.com
+
+! Additional stock exchanges
+$boost=1,site=tmx.com
+$boost=1,site=asx.com.au
+$boost=1,site=b3.com.br
+$boost=1,site=six-group.com
+$boost=1,site=sgx.com
+$boost=1,site=twse.com.tw
+
+! Small business resources
+$boost=1,site=sba.gov
+$boost=1,site=score.org
+$boost=1,site=entrepreneur.com
+$boost=1,site=inc.com
+
+! Academic economics
+$boost=1,site=voxeu.org
+$boost=1,site=econlib.org
+
+! Open financial data
+$boost=1,site=data-explorer.oecd.org
+$boost=1,site=tradingeconomics.com
+$boost=1,site=macrotrends.net
+
+! Real estate
+$boost=1,site=zillow.com
+$boost=1,site=rightmove.co.uk
+$boost=1,site=realtor.com

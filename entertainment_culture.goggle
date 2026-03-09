@@ -1,0 +1,206 @@
+! name: Entertainment & Culture
+! description: Boosts authoritative entertainment, arts, and culture sources including film/TV databases, music platforms, book reviews, gaming sites, arts/museums, theater, and streaming guides worldwide.
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Primary entertainment databases and globally
+!           authoritative cultural institutions
+! ============================================================
+
+! Film and TV databases
+$boost=5,site=imdb.com
+$boost=5,site=rottentomatoes.com
+$boost=5,site=metacritic.com
+
+! Music databases
+$boost=5,site=allmusic.com
+$boost=5,site=discogs.com
+
+! Books
+$boost=5,site=goodreads.com
+
+! Google Arts & Culture
+$boost=5,site=artsandculture.google.com
+
+! ============================================================
+! TIER 4 — Major entertainment news, review platforms,
+!           and cultural institutions
+! ============================================================
+
+! Film and TV
+$boost=4,site=letterboxd.com
+$boost=4,site=justwatch.com
+$boost=4,site=themoviedb.org
+$boost=4,site=tvdb.com
+
+! Music — publications and platforms
+$boost=4,site=pitchfork.com
+$boost=4,site=nme.com
+$boost=4,site=bandcamp.com
+$boost=4,site=songkick.com
+$boost=4,site=albumoftheyear.org
+
+! Gaming — top tier
+$boost=4,site=ign.com
+$boost=4,site=polygon.com
+$boost=4,site=eurogamer.net
+$boost=4,site=gamespot.com
+
+! Major museums
+$boost=4,site=metmuseum.org
+$boost=4,site=britishmuseum.org
+$boost=4,site=louvre.fr
+$boost=4,site=moma.org
+$boost=4,site=nga.gov
+$boost=4,site=vam.ac.uk
+$boost=4,site=smithsonianmag.com
+
+! Book reviews — professional
+$boost=4,site=kirkusreviews.com
+$boost=4,site=publishersweekly.com
+$boost=4,site=bookpage.com
+
+! Theater
+$boost=4,site=broadway.com
+$boost=4,site=playbill.com
+
+! ============================================================
+! TIER 3 — Trusted entertainment and culture publications,
+!           gaming, and arts platforms
+! ============================================================
+
+! Film and entertainment news
+$boost=3,site=variety.com
+$boost=3,site=hollywoodreporter.com
+$boost=3,site=deadline.com
+$boost=3,site=indiewire.com
+$boost=3,site=screendaily.com
+$boost=3,site=empireonline.com
+$boost=3,site=rogerebert.com
+
+! Music — additional
+$boost=3,site=stereogum.com
+$boost=3,site=consequenceofsound.net
+$boost=3,site=rollingstone.com
+$boost=3,site=billboard.com
+$boost=3,site=musicradar.com
+
+! Gaming — additional
+$boost=3,site=kotaku.com
+$boost=3,site=pcgamer.com
+$boost=3,site=rockpapershotgun.com
+$boost=3,site=gematsu.com
+$boost=3,site=destructoid.com
+$boost=3,site=nintendolife.com
+$boost=3,site=pushsquare.com
+$boost=3,site=opencritic.com
+
+! Books — additional
+$boost=3,site=librarything.com
+$boost=3,site=thestorygraph.com
+$boost=3,site=lithub.com
+$boost=3,site=bookriot.com
+
+! Arts and culture
+$boost=3,site=artnet.com
+$boost=3,site=artsy.net
+$boost=3,site=artnews.com
+$boost=3,site=frieze.com
+$boost=3,site=hyperallergic.com
+
+! Events and theater
+$boost=3,site=timeout.com
+$boost=3,site=broadwayworld.com
+$boost=3,site=todaytix.com
+$boost=3,site=eventbrite.com
+
+! ============================================================
+! TIER 2 — Streaming guides, podcasts, additional culture
+!           platforms, and niche entertainment
+! ============================================================
+
+! Streaming and what-to-watch
+$boost=2,site=reelgood.com
+$boost=2,site=decider.com
+$boost=2,site=flixpatrol.com
+$boost=2,site=tvguide.com
+
+! Podcasts
+$boost=2,site=pocketcasts.com
+$boost=2,site=podcastaddict.com
+$boost=2,site=listennotes.com
+$boost=2,site=podchaser.com
+
+! Anime and manga
+$boost=2,site=myanimelist.net
+$boost=2,site=anilist.co
+$boost=2,site=crunchyroll.com
+
+! Comics
+$boost=2,site=comicbookresources.com
+$boost=2,site=comicsbeat.com
+
+! Additional museums
+$boost=2,site=tate.org.uk
+$boost=2,site=guggenheim.org
+$boost=2,site=rijksmuseum.nl
+$boost=2,site=uffizi.it
+$boost=2,site=hermitagemuseum.org
+$boost=2,site=musee-orsay.fr
+
+! Music events
+$boost=2,site=dice.fm
+$boost=2,site=bandsintown.com
+
+! Entertainment culture and criticism
+$boost=2,site=avclub.com
+$boost=2,site=vulture.com
+/entertainment^$boost=2,site=theverge.com
+$boost=2,site=denofgeek.com
+
+! ============================================================
+! TIER 1 — Supplementary trusted sources, regional platforms,
+!           and niche entertainment resources
+! ============================================================
+
+! Film festivals
+$boost=1,site=festival-cannes.com
+$boost=1,site=berlinale.de
+$boost=1,site=labiennale.org
+$boost=1,site=sundance.org
+$boost=1,site=tiff.net
+$boost=1,site=bfi.org.uk
+
+! Music — niche and regional
+$boost=1,site=residentadvisor.net
+$boost=1,site=tinymixtapes.com
+$boost=1,site=thequietus.com
+$boost=1,site=setlist.fm
+
+! Gaming — niche
+$boost=1,site=siliconera.com
+$boost=1,site=howlongtobeat.com
+$boost=1,site=pcgamingwiki.com
+$boost=1,site=giantbomb.com
+
+! Photography and visual arts
+$boost=1,site=thephoblographer.com
+$boost=1,site=lensculture.com
+
+! Cultural organizations
+$boost=1,site=arts.gov
+$boost=1,site=artscouncil.org.uk
+/en/culture^$boost=1,site=unesco.org
+
+! Additional literary resources
+$boost=1,site=lrb.co.uk
+$boost=1,site=nybooks.com
+$boost=1,site=theparisreview.org
+$boost=1,site=granta.com
+
+! Performing arts
+$boost=1,site=operabase.com
+$boost=1,site=sadlerswells.com
+$boost=1,site=lincolncenter.org
+$boost=1,site=sydneyoperahouse.com

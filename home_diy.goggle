@@ -1,0 +1,160 @@
+! name: Home Improvement, DIY & Interior Design
+! description: Boosts authoritative home improvement, DIY, gardening, interior design, real estate, and home appliance review sites globally. Downranks content farms and clickbait listicles.
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Definitive DIY & Home Improvement Authorities
+! ============================================================
+
+$boost=5,site=thisoldhouse.com
+$boost=5,site=familyhandyman.com
+$boost=5,site=bobvila.com
+$boost=5,site=instructables.com
+$boost=5,site=ifixit.com
+$boost=5,site=diynetwork.com
+$boost=5,site=hgtv.com
+
+! --- Consumer Testing & Reviews ---
+$boost=5,site=consumerreports.org
+/wirecutter^$boost=5,site=nytimes.com
+$boost=5,site=rtings.com
+$boost=5,site=which.co.uk
+
+! ============================================================
+! TIER 4 — Interior Design, Architecture & Gardening
+! ============================================================
+
+! --- Interior Design & Architecture ---
+$boost=4,site=architecturaldigest.com
+$boost=4,site=houzz.com
+$boost=4,site=apartmenttherapy.com
+$boost=4,site=dwell.com
+$boost=4,site=elledecor.com
+$boost=4,site=dezeen.com
+$boost=4,site=archdaily.com
+$boost=4,site=designmilk.com
+$boost=4,site=housebeautiful.com
+$boost=4,site=livingetc.com
+$boost=4,site=domino.com
+$boost=4,site=remodelista.com
+$boost=4,site=countryliving.com
+$boost=4,site=bhg.com
+$boost=4,site=marthastewart.com
+$boost=4,site=thespruce.com
+
+! --- Gardening ---
+$boost=4,site=rhs.org.uk
+$boost=4,site=gardenersworld.com
+$boost=4,site=gardendesign.com
+$boost=4,site=finegardening.com
+$boost=4,site=gardenia.net
+$boost=4,site=almanac.com
+$boost=4,site=savvygardening.com
+$boost=4,site=gardeningknowhow.com
+
+! --- UK Home & Property ---
+$boost=4,site=idealhome.co.uk
+$boost=4,site=housetohome.co.uk
+
+! ============================================================
+! TIER 3 — Real Estate, Appliance Reviews & Cleaning
+! ============================================================
+
+! --- Real Estate Reference ---
+$boost=3,site=rightmove.co.uk
+$boost=3,site=zoopla.co.uk
+$boost=3,site=onthemarket.com
+$boost=3,site=zillow.com
+$boost=3,site=redfin.com
+$boost=3,site=realtor.com
+$boost=3,site=trulia.com
+$boost=3,site=immobilienscout24.de
+$boost=3,site=seloger.com
+$boost=3,site=idealista.com
+$boost=3,site=domain.com.au
+$boost=3,site=realestate.com.au
+
+! --- Good Housekeeping, Organization & Cleaning ---
+$boost=3,site=goodhousekeeping.com
+$boost=3,site=realsimple.com
+$boost=3,site=thekitchn.com
+$boost=3,site=cleanipedia.com
+$boost=3,site=mollymaid.com
+
+! --- Home Building & Renovation ---
+$boost=3,site=homebuilding.co.uk
+$boost=3,site=self-build.co.uk
+$boost=3,site=buildwithrise.com
+$boost=3,site=homedepot.com
+$boost=3,site=lowes.com
+$boost=3,site=screwfix.com
+$boost=3,site=wickes.co.uk
+$boost=3,site=bunnings.com.au
+
+! --- Woodworking & Maker ---
+$boost=3,site=popularwoodworking.com
+$boost=3,site=woodmagazine.com
+$boost=3,site=finewoodworking.com
+$boost=3,site=makezine.com
+
+! --- Housing Legal & Advice ---
+$boost=3,site=shelter.org.uk
+$boost=3,site=citizensadvice.org.uk
+$boost=3,site=hud.gov
+
+! ============================================================
+! TIER 2 — Sustainability, Energy & Smart Home
+! ============================================================
+
+! --- Sustainability & Energy ---
+$boost=2,site=treehugger.com
+$boost=2,site=energysavingtrust.org.uk
+$boost=2,site=energy.gov
+$boost=2,site=energystar.gov
+$boost=2,site=energysage.com
+$boost=2,site=ecowatch.com
+$boost=2,site=homeenergyscotland.org
+
+! --- Smart Home ---
+$boost=2,site=home-assistant.io
+$boost=2,site=smartthings.com
+
+! --- Paint & Color ---
+$boost=2,site=benjaminmoore.com
+$boost=2,site=sherwin-williams.com
+$boost=2,site=farrow-ball.com
+$boost=2,site=dulux.co.uk
+
+! --- Plumbing & Electrical Safety ---
+$boost=2,site=plumbworld.co.uk
+$boost=2,site=electricalsafetyfirst.org.uk
+
+! --- UK & Australian Resources ---
+$boost=2,site=diydoctor.org.uk
+$boost=2,site=ultimatehandyman.co.uk
+$boost=2,site=renovateaustralia.com
+
+! ============================================================
+! TIER 1 — Supplementary & Community Resources
+! ============================================================
+
+$boost=1,site=mumsnet.com
+$boost=1,site=moneysavingexpert.com
+$boost=1,site=checkatrade.com
+$boost=1,site=trustatrader.com
+$boost=1,site=angieslist.com
+$boost=1,site=homeadvisor.com
+
+! ============================================================
+! DOWNRANK — Content Farms & Low-Quality Listicles
+! ============================================================
+
+$downrank=2,site=housedigest.com
+$downrank=2,site=hunker.com
+$downrank=2,site=diyncrafts.com
+$downrank=2,site=homedit.com
+$downrank=2,site=architecturendesign.net
+$downrank=2,site=boredpanda.com
+$downrank=1,site=wikihow.com
+$downrank=1,site=ehow.com

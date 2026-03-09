@@ -1,0 +1,238 @@
+! name: Sports, Fitness & Wellness
+! description: Boosts official sports bodies, trusted sports news, fitness resources, sports data/analytics, and wellness sites globally. Downranks clickbait and betting-focused sites.
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Official Governing Bodies & Olympic Organizations
+! ============================================================
+
+! --- Olympic & Multi-Sport ---
+$boost=5,site=olympics.com
+$boost=5,site=wada-ama.org
+$boost=5,site=cas-sca.org
+
+! --- Football/Soccer ---
+$boost=5,site=fifa.com
+$boost=5,site=uefa.com
+$boost=5,site=premierleague.com
+$boost=5,site=bundesliga.com
+$boost=5,site=laliga.com
+$boost=5,site=seriea.it
+$boost=5,site=ligue1.com
+$boost=5,site=mlssoccer.com
+
+! --- American Sports Leagues ---
+$boost=5,site=nfl.com
+$boost=5,site=nba.com
+$boost=5,site=mlb.com
+$boost=5,site=nhl.com
+$boost=5,site=wnba.com
+$boost=5,site=mls.com
+
+! --- Cricket ---
+$boost=5,site=icc-cricket.com
+$boost=5,site=ecb.co.uk
+$boost=5,site=bcci.tv
+
+! --- Tennis ---
+$boost=5,site=atptour.com
+$boost=5,site=wtatennis.com
+$boost=5,site=itftennis.com
+$boost=5,site=wimbledon.com
+$boost=5,site=rolandgarros.com
+$boost=5,site=usopen.org
+$boost=5,site=ausopen.com
+
+! --- Motorsport ---
+$boost=5,site=formula1.com
+$boost=5,site=motogp.com
+$boost=5,site=fia.com
+$boost=5,site=nascar.com
+$boost=5,site=indycar.com
+
+! --- Rugby ---
+$boost=5,site=world.rugby
+$boost=5,site=sixnationsrugby.com
+$boost=5,site=premiershiprugby.com
+
+! --- Other Governing Bodies ---
+$boost=5,site=worldathletics.org
+$boost=5,site=fiba.basketball
+$boost=5,site=worldaquatics.com
+$boost=5,site=fis-ski.com
+$boost=5,site=uci.org
+$boost=5,site=fivb.com
+$boost=5,site=ihf.info
+$boost=5,site=wwe.com
+$boost=5,site=ufc.com
+$boost=5,site=pgatour.com
+$boost=5,site=lpga.com
+$boost=5,site=worldsnooker.com
+$boost=5,site=worldboxingnews.net
+
+! ============================================================
+! TIER 4 — Major Sports News & Trusted Journalism
+! ============================================================
+
+! --- Global Sports News ---
+$boost=4,site=espn.com
+/sport^$boost=4,site=bbc.co.uk
+$boost=4,site=skysports.com
+$boost=4,site=theathletic.com
+$boost=4,site=sports.yahoo.com
+$boost=4,site=cbssports.com
+$boost=4,site=nbcsports.com
+$boost=4,site=foxsports.com
+$boost=4,site=si.com
+$boost=4,site=bleacherreport.com
+
+! --- European Sports Media ---
+$boost=4,site=lequipe.fr
+$boost=4,site=marca.com
+$boost=4,site=gazzetta.it
+$boost=4,site=sport.es
+$boost=4,site=mundodeportivo.com
+$boost=4,site=kicker.de
+$boost=4,site=sportbild.de
+$boost=4,site=eurosport.com
+
+! --- Cricket & Rugby News ---
+$boost=4,site=espncricinfo.com
+$boost=4,site=cricbuzz.com
+$boost=4,site=rugbypass.com
+
+! --- Combat Sports ---
+$boost=4,site=boxingscene.com
+$boost=4,site=mmafighting.com
+$boost=4,site=mmajunkie.usatoday.com
+$boost=4,site=sherdog.com
+
+! --- Motorsport Media ---
+$boost=4,site=autosport.com
+$boost=4,site=motorsport.com
+$boost=4,site=racer.com
+
+! ============================================================
+! TIER 3 — Sports Data, Stats & Analytics
+! ============================================================
+
+! --- Football/Soccer Data ---
+$boost=3,site=transfermarkt.com
+$boost=3,site=fbref.com
+$boost=3,site=whoscored.com
+$boost=3,site=sofascore.com
+$boost=3,site=flashscore.com
+$boost=3,site=soccerway.com
+$boost=3,site=understat.com
+$boost=3,site=fotmob.com
+
+! --- Multi-Sport Stats ---
+$boost=3,site=sports-reference.com
+$boost=3,site=pro-football-reference.com
+$boost=3,site=basketball-reference.com
+$boost=3,site=baseball-reference.com
+$boost=3,site=hockey-reference.com
+$boost=3,site=statmuse.com
+
+! --- Fantasy & Predictions ---
+$boost=3,site=fpl.team
+$boost=3,site=fantasypremierleague.com
+$boost=3,site=rotowire.com
+
+! ============================================================
+! TIER 3 — Fitness, Exercise & Training
+! ============================================================
+
+! --- Fitness Education & Certification ---
+$boost=3,site=acefitness.org
+$boost=3,site=nasm.org
+$boost=3,site=nsca.com
+$boost=3,site=acsm.org
+
+! --- Fitness Platforms ---
+$boost=3,site=bodybuilding.com
+$boost=3,site=muscleandstrength.com
+$boost=3,site=exrx.net
+$boost=3,site=musclewiki.com
+$boost=3,site=fitnessblender.com
+$boost=3,site=darebee.com
+$boost=3,site=stronglifts.com
+$boost=3,site=t-nation.com
+
+! --- Activity Tracking ---
+$boost=3,site=strava.com
+$boost=3,site=mapmyrun.com
+$boost=3,site=garmin.com
+$boost=3,site=polar.com
+$boost=3,site=whoop.com
+$boost=3,site=trainingpeaks.com
+
+! ============================================================
+! TIER 2 — Running, Cycling, Endurance & Wellness
+! ============================================================
+
+! --- Running ---
+$boost=2,site=runnersworld.com
+$boost=2,site=letsrun.com
+$boost=2,site=runningmagazine.ca
+$boost=2,site=parkrun.com
+$boost=2,site=parkrun.co.uk
+$boost=2,site=marathonhandbook.com
+
+! --- Cycling ---
+$boost=2,site=cyclingweekly.com
+$boost=2,site=bikeradar.com
+$boost=2,site=cyclingnews.com
+$boost=2,site=road.cc
+$boost=2,site=velonews.com
+$boost=2,site=gcn.eu
+
+! --- Triathlon & Endurance ---
+$boost=2,site=triathlete.com
+$boost=2,site=ironman.com
+$boost=2,site=220triathlon.com
+
+! --- Yoga & Meditation ---
+$boost=2,site=yogajournal.com
+$boost=2,site=headspace.com
+$boost=2,site=calm.com
+$boost=2,site=insighttimer.com
+$boost=2,site=doyogawithme.com
+
+! --- Climbing & Outdoor ---
+$boost=2,site=ukclimbing.com
+$boost=2,site=ifsc-climbing.org
+$boost=2,site=outsideonline.com
+$boost=2,site=trailrunnermag.com
+$boost=2,site=rei.com
+
+! --- Nutrition & Recovery ---
+$boost=2,site=examine.com
+$boost=2,site=precisionnutrition.com
+$boost=2,site=myfitnesspal.com
+
+! ============================================================
+! TIER 1 — Supplementary Sports & Community
+! ============================================================
+
+$boost=1,site=topendsports.com
+$boost=1,site=sportingnews.com
+$boost=1,site=dazn.com
+$boost=1,site=teamusa.org
+$boost=1,site=olympics.com.au
+$boost=1,site=sport.gov.uk
+
+! ============================================================
+! DOWNRANK — Clickbait, Betting-Heavy & Low-Quality Sites
+! ============================================================
+
+$downrank=2,site=givemesport.com
+$downrank=2,site=sportbible.com
+$downrank=2,site=90min.com
+$downrank=2,site=sportskeeda.com
+$downrank=2,site=thesportster.com
+$downrank=2,site=essentially-sports.com
+$downrank=2,site=clutchpoints.com
+/en^$downrank=1,site=marca.com
+$downrank=1,site=goal.com

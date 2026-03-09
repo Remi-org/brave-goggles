@@ -1,0 +1,97 @@
+! name: Weather & Climate
+! description: Boosts national meteorological services, weather forecasts, marine weather, and climate science resources worldwide
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — National meteorological services (major)
+! ============================================================
+$boost=5,site=weather.gov
+$boost=5,site=metoffice.gov.uk
+$boost=5,site=meteofrance.com
+$boost=5,site=dwd.de
+
+! ============================================================
+! TIER 4 — Global weather platforms and key met services
+! ============================================================
+
+! Global weather platforms
+$boost=4,site=weather.com
+$boost=4,site=accuweather.com
+$boost=4,site=windy.com
+$boost=4,site=yr.no
+/weather^$boost=4,site=bbc.co.uk
+
+! European met services
+$boost=4,site=ecmwf.int
+$boost=4,site=aemet.es
+$boost=4,site=knmi.nl
+$boost=4,site=smhi.se
+$boost=4,site=met.ie
+$boost=4,site=meteo.be
+$boost=4,site=meteoswiss.admin.ch
+$boost=4,site=met.no
+
+! Other national met services
+$boost=4,site=noaa.gov
+$boost=4,site=bom.gov.au
+$boost=4,site=weather.gc.ca
+$boost=4,site=jma.go.jp
+$boost=4,site=imd.gov.in
+$boost=4,site=kma.go.kr
+
+! ============================================================
+! TIER 3 — Climate science, secondary weather, marine
+! ============================================================
+
+! Climate science
+$boost=3,site=climate.nasa.gov
+$boost=3,site=ipcc.ch
+$boost=3,site=carbonbrief.org
+$boost=3,site=climate.gov
+$boost=3,site=copernicus.eu
+$boost=3,site=worldweatherattribution.org
+
+! Weather data and tools
+$boost=3,site=wunderground.com
+$boost=3,site=timeanddate.com
+$boost=3,site=weatherspark.com
+$boost=3,site=openweathermap.org
+$boost=3,site=ventusky.com
+$boost=3,site=weather.us
+
+! Marine and surf weather
+$boost=3,site=windguru.cz
+$boost=3,site=surfline.com
+$boost=3,site=surf-forecast.com
+$boost=3,site=magicseaweed.com
+$boost=3,site=tidesonline.com
+
+! ============================================================
+! TIER 2 — Regional services and supplementary
+! ============================================================
+
+! Additional met services
+$boost=2,site=imgw.pl
+$boost=2,site=meteo.it
+$boost=2,site=ipma.pt
+$boost=2,site=ilmatieteenlaitos.fi
+$boost=2,site=meteo.gr
+$boost=2,site=chmi.cz
+$boost=2,site=weather.go.ke
+$boost=2,site=weather.gov.za
+
+! Severe weather and alerts
+$boost=2,site=spc.noaa.gov
+$boost=2,site=nhc.noaa.gov
+$boost=2,site=meteoalarm.org
+$boost=2,site=tropicaltidbits.com
+
+! ============================================================
+! TIER 1 — Niche and supplementary weather resources
+! ============================================================
+$boost=1,site=weatheronline.co.uk
+$boost=1,site=worldweatheronline.com
+$boost=1,site=eldoradoweather.com
+$boost=1,site=ogimet.com
+$boost=1,site=weatherbell.com

@@ -1,0 +1,128 @@
+! name: Education & Learning
+! description: Boosts online learning platforms, academic databases, reference works, language learning, and science education resources worldwide
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Open-access knowledge and academic search
+! ============================================================
+$boost=5,site=wikipedia.org
+$boost=5,site=scholar.google.com
+$boost=5,site=khanacademy.org
+$boost=5,site=britannica.com
+
+! ============================================================
+! TIER 4 — Major learning platforms and academic databases
+! ============================================================
+
+! Online learning platforms
+$boost=4,site=coursera.org
+$boost=4,site=edx.org
+$boost=4,site=ocw.mit.edu
+$boost=4,site=futurelearn.com
+$boost=4,site=open.edu
+$boost=4,site=udemy.com
+$boost=4,site=skillshare.com
+/learning^$boost=4,site=linkedin.com
+
+! Academic databases and repositories
+$boost=4,site=jstor.org
+$boost=4,site=arxiv.org
+$boost=4,site=semanticscholar.org
+$boost=4,site=pubmed.ncbi.nlm.nih.gov
+$boost=4,site=researchgate.net
+$boost=4,site=sciencedirect.com
+$boost=4,site=springer.com
+$boost=4,site=doaj.org
+
+! Philosophy encyclopedias
+$boost=4,site=plato.stanford.edu
+$boost=4,site=iep.utm.edu
+
+! ============================================================
+! TIER 3 — Science education, language learning, reference
+! ============================================================
+
+! Science education
+$boost=3,site=nasa.gov
+$boost=3,site=esa.int
+$boost=3,site=home.cern
+/scitable^$boost=3,site=nature.com
+$boost=3,site=sciencebuddies.org
+$boost=3,site=phet.colorado.edu
+/education^$boost=3,site=nationalgeographic.com
+
+! Language learning
+$boost=3,site=duolingo.com
+$boost=3,site=babbel.com
+$boost=3,site=busuu.com
+$boost=3,site=memrise.com
+/learningenglish^$boost=3,site=bbc.co.uk
+
+! Educational resources for kids and students
+/bitesize^$boost=3,site=bbc.co.uk
+$boost=3,site=ck12.org
+$boost=3,site=education.com
+$boost=3,site=natgeokids.com
+$boost=3,site=coolmath.com
+
+! Reference and dictionaries
+$boost=3,site=merriam-webster.com
+$boost=3,site=dictionary.com
+$boost=3,site=encyclopedia.com
+$boost=3,site=refseek.com
+$boost=3,site=oxfordlearnersdictionaries.com
+
+! Regional open education
+$boost=3,site=nptel.ac.in
+$boost=3,site=swayam.gov.in
+$boost=3,site=cnx.org
+
+! ============================================================
+! TIER 2 — Supplementary learning and niche education
+! ============================================================
+
+! Coding and tech education
+$boost=2,site=freecodecamp.org
+$boost=2,site=codecademy.com
+$boost=2,site=w3schools.com
+$boost=2,site=brilliant.org
+$boost=2,site=datacamp.com
+
+! Academic tools and writing
+$boost=2,site=grammarly.com
+$boost=2,site=citethisforme.com
+$boost=2,site=zotero.org
+$boost=2,site=overleaf.com
+
+! Open access and preprints
+$boost=2,site=ssrn.com
+$boost=2,site=biorxiv.org
+$boost=2,site=medrxiv.org
+$boost=2,site=core.ac.uk
+$boost=2,site=unpaywall.org
+$boost=2,site=oa.mg
+
+! University open content
+$boost=2,site=oyc.yale.edu
+$boost=2,site=online.stanford.edu
+$boost=2,site=pll.harvard.edu
+
+! Educational publishers
+$boost=2,site=ted.com
+$boost=2,site=edutopia.org
+$boost=2,site=teacherspayteachers.com
+
+! ============================================================
+! TIER 1 — Niche and supplementary education resources
+! ============================================================
+$boost=1,site=quizlet.com
+$boost=1,site=studystack.com
+$boost=1,site=sparknotes.com
+$boost=1,site=cliffsnotes.com
+$boost=1,site=mathway.com
+$boost=1,site=symbolab.com
+$boost=1,site=wolframalpha.com
+$boost=1,site=gutenberg.org
+$boost=1,site=librivox.org
+$boost=1,site=openstax.org

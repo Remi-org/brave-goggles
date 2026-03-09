@@ -1,0 +1,203 @@
+! name: Authoritative News Sources
+! description: Boosts trusted, authoritative news sources globally — wire services, public broadcasters, major broadsheets, and investigative outlets. Downranks content farms and low-quality aggregators.
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Wire Services (gold standard for factual reporting)
+! ============================================================
+
+$boost=5,site=reuters.com
+$boost=5,site=apnews.com
+$boost=5,site=afp.com
+$boost=5,site=efe.com
+$boost=5,site=dpa.de
+$boost=5,site=ansa.it
+$boost=5,site=kyodonews.net
+$boost=5,site=pti.in
+$boost=5,site=aa.com.tr
+
+! ============================================================
+! TIER 4 — Public Broadcasters & Globally Respected Publications
+! ============================================================
+
+! --- Public Broadcasters ---
+$boost=4,site=bbc.com
+$boost=4,site=bbc.co.uk
+$boost=4,site=npr.org
+$boost=4,site=pbs.org
+$boost=4,site=dw.com
+$boost=4,site=france24.com
+$boost=4,site=nhk.or.jp
+$boost=4,site=abc.net.au
+$boost=4,site=cbc.ca
+$boost=4,site=rte.ie
+$boost=4,site=svt.se
+$boost=4,site=nrk.no
+$boost=4,site=yle.fi
+$boost=4,site=dr.dk
+$boost=4,site=rfi.fr
+$boost=4,site=swissinfo.ch
+$boost=4,site=orf.at
+$boost=4,site=rtbf.be
+
+! --- Globally Respected Publications ---
+$boost=4,site=theguardian.com
+$boost=4,site=nytimes.com
+$boost=4,site=washingtonpost.com
+$boost=4,site=economist.com
+$boost=4,site=ft.com
+$boost=4,site=aljazeera.com
+
+! ============================================================
+! TIER 3 — Major National Broadsheets & Business Press
+! ============================================================
+
+! --- United States ---
+$boost=3,site=wsj.com
+$boost=3,site=latimes.com
+$boost=3,site=chicagotribune.com
+$boost=3,site=bostonglobe.com
+$boost=3,site=bloomberg.com
+$boost=3,site=politico.com
+
+! --- United Kingdom ---
+$boost=3,site=thetimes.com
+$boost=3,site=telegraph.co.uk
+$boost=3,site=independent.co.uk
+
+! --- Europe ---
+$boost=3,site=lemonde.fr
+$boost=3,site=spiegel.de
+$boost=3,site=faz.net
+$boost=3,site=zeit.de
+$boost=3,site=sueddeutsche.de
+$boost=3,site=elpais.com
+$boost=3,site=corriere.it
+$boost=3,site=repubblica.it
+$boost=3,site=nrc.nl
+$boost=3,site=publico.pt
+$boost=3,site=irishtimes.com
+$boost=3,site=euronews.com
+
+! --- Asia-Pacific ---
+$boost=3,site=scmp.com
+$boost=3,site=japantimes.co.jp
+$boost=3,site=thehindu.com
+$boost=3,site=timesofindia.indiatimes.com
+$boost=3,site=indianexpress.com
+$boost=3,site=straitstimes.com
+$boost=3,site=koreaherald.com
+$boost=3,site=bangkokpost.com
+$boost=3,site=channelnewsasia.com
+
+! --- Australia / New Zealand ---
+$boost=3,site=smh.com.au
+$boost=3,site=theage.com.au
+$boost=3,site=theaustralian.com.au
+$boost=3,site=rnz.co.nz
+
+! --- Americas ---
+$boost=3,site=globo.com
+$boost=3,site=clarin.com
+$boost=3,site=elmercurio.com
+$boost=3,site=eluniversal.com.mx
+$boost=3,site=globeandmail.com
+
+! --- Africa ---
+$boost=3,site=mg.co.za
+$boost=3,site=nation.africa
+$boost=3,site=africanews.com
+
+! --- Middle East ---
+$boost=3,site=haaretz.com
+$boost=3,site=thenationalnews.com
+$boost=3,site=arabnews.com
+
+! --- Business / Financial Press ---
+$boost=3,site=forbes.com
+$boost=3,site=cnbc.com
+$boost=3,site=asia.nikkei.com
+$boost=3,site=fortune.com
+$boost=3,site=barrons.com
+
+! ============================================================
+! TIER 2 — Quality Regional / Specialist Publications
+! ============================================================
+
+! --- Investigative Journalism ---
+$boost=2,site=propublica.org
+$boost=2,site=theintercept.com
+$boost=2,site=bellingcat.com
+$boost=2,site=icij.org
+$boost=2,site=occrp.org
+
+! --- US Regional & Specialty ---
+$boost=2,site=theatlantic.com
+$boost=2,site=newyorker.com
+$boost=2,site=foreignaffairs.com
+$boost=2,site=foreignpolicy.com
+$boost=2,site=minnpost.com
+$boost=2,site=texastribune.org
+$boost=2,site=seattletimes.com
+$boost=2,site=sfchronicle.com
+$boost=2,site=startribune.com
+$boost=2,site=denverpost.com
+
+! --- European Regional ---
+$boost=2,site=thelocal.com
+$boost=2,site=politico.eu
+$boost=2,site=balkaninsight.com
+
+! --- Global English-Language ---
+$boost=2,site=thediplomat.com
+$boost=2,site=devex.com
+$boost=2,site=newscientist.com
+$boost=2,site=nature.com
+$boost=2,site=sciencemag.org
+
+! --- Fact-Checking ---
+$boost=2,site=factcheck.org
+$boost=2,site=snopes.com
+$boost=2,site=politifact.com
+$boost=2,site=fullfact.org
+
+! ============================================================
+! TIER 1 — Supplementary Trusted Sources
+! ============================================================
+
+$boost=1,site=cnn.com
+$boost=1,site=abcnews.go.com
+$boost=1,site=nbcnews.com
+$boost=1,site=cbsnews.com
+$boost=1,site=usatoday.com
+$boost=1,site=news.sky.com
+$boost=1,site=thedailybeast.com
+$boost=1,site=axios.com
+$boost=1,site=thehill.com
+$boost=1,site=dawn.com
+$boost=1,site=dailystar.net
+$boost=1,site=allafrica.com
+$boost=1,site=japantoday.com
+
+! ============================================================
+! DOWNRANK — Content Farms, Aggregators, Low-Quality Sources
+! ============================================================
+
+$downrank=2,site=buzzfeed.com
+$downrank=2,site=huffpost.com
+$downrank=2,site=dailymail.co.uk
+$downrank=2,site=nypost.com
+$downrank=2,site=thesun.co.uk
+$downrank=2,site=newsbreak.com
+$downrank=2,site=msn.com
+$downrank=2,site=news.yahoo.com
+$downrank=2,site=oann.com
+$downrank=2,site=breitbart.com
+$downrank=2,site=infowars.com
+$downrank=2,site=naturalnews.com
+$downrank=2,site=zerohedge.com
+$downrank=2,site=rt.com
+$downrank=2,site=sputniknews.com
+$downrank=1,site=medium.com
+$downrank=1,site=substack.com

@@ -1,0 +1,280 @@
+! name: Tech Docs & Developer References
+! description: Boosts official programming documentation, framework references, developer Q&A, and package registries. Supplements Brave's tech_blogs.goggle by focusing on docs rather than blogs.
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Official Language Docs & Canonical Web References
+! ============================================================
+
+! --- Programming Language Official Docs ---
+$boost=5,site=docs.python.org
+$boost=5,site=doc.rust-lang.org
+$boost=5,site=go.dev
+$boost=5,site=docs.oracle.com
+$boost=5,site=learn.microsoft.com
+$boost=5,site=developer.apple.com
+$boost=5,site=docs.ruby-lang.org
+$boost=5,site=devdocs.io
+$boost=5,site=cppreference.com
+$boost=5,site=typescriptlang.org
+$boost=5,site=kotlinlang.org
+$boost=5,site=elixir-lang.org
+$boost=5,site=erlang.org
+$boost=5,site=haskell.org
+$boost=5,site=scala-lang.org
+$boost=5,site=php.net
+$boost=5,site=clojure.org
+$boost=5,site=ziglang.org
+$boost=5,site=dlang.org
+$boost=5,site=nim-lang.org
+$boost=5,site=julialang.org
+$boost=5,site=dart.dev
+$boost=5,site=swift.org
+$boost=5,site=lua.org
+$boost=5,site=perl.org
+
+! --- Canonical Web Platform References ---
+$boost=5,site=developer.mozilla.org
+$boost=5,site=html.spec.whatwg.org
+$boost=5,site=w3.org
+$boost=5,site=tc39.es
+$boost=5,site=ecma-international.org
+$boost=5,site=datatracker.ietf.org
+$boost=5,site=unicode.org
+
+! ============================================================
+! TIER 4 — Major Frameworks, StackOverflow, Cloud Providers
+! ============================================================
+
+! --- Frontend Frameworks ---
+$boost=4,site=react.dev
+$boost=4,site=vuejs.org
+$boost=4,site=angular.dev
+$boost=4,site=svelte.dev
+$boost=4,site=nextjs.org
+$boost=4,site=nuxt.com
+$boost=4,site=remix.run
+$boost=4,site=astro.build
+$boost=4,site=solidjs.com
+$boost=4,site=qwik.dev
+$boost=4,site=htmx.org
+$boost=4,site=alpinejs.dev
+
+! --- CSS Frameworks & Tools ---
+$boost=4,site=tailwindcss.com
+$boost=4,site=getbootstrap.com
+
+! --- Backend Frameworks ---
+$boost=4,site=rubyonrails.org
+$boost=4,site=guides.rubyonrails.org
+$boost=4,site=api.rubyonrails.org
+$boost=4,site=djangoproject.com
+$boost=4,site=flask.palletsprojects.com
+$boost=4,site=fastapi.tiangolo.com
+$boost=4,site=spring.io
+$boost=4,site=laravel.com
+$boost=4,site=phoenixframework.org
+$boost=4,site=expressjs.com
+$boost=4,site=fastify.dev
+$boost=4,site=dotnet.microsoft.com
+$boost=4,site=gin-gonic.com
+
+! --- JavaScript/TypeScript Runtimes & Build Tools ---
+$boost=4,site=nodejs.org
+$boost=4,site=deno.com
+$boost=4,site=bun.sh
+$boost=4,site=vitejs.dev
+$boost=4,site=webpack.js.org
+$boost=4,site=esbuild.github.io
+$boost=4,site=turbo.build
+$boost=4,site=rollupjs.org
+
+! --- Developer Q&A ---
+$boost=4,site=stackoverflow.com
+$boost=4,site=serverfault.com
+$boost=4,site=superuser.com
+$boost=4,site=stackexchange.com
+
+! --- Cloud Provider Documentation ---
+$boost=4,site=docs.aws.amazon.com
+$boost=4,site=docs.cloud.google.com
+$boost=4,site=cloud.google.com
+$boost=4,site=docs.microsoft.com
+$boost=4,site=docs.azure.cn
+$boost=4,site=docs.digitalocean.com
+$boost=4,site=developers.cloudflare.com
+$boost=4,site=docs.oracle.com
+$boost=4,site=firebase.google.com
+
+! --- Platform / Hosting Documentation ---
+$boost=4,site=vercel.com
+$boost=4,site=docs.netlify.com
+$boost=4,site=fly.io
+$boost=4,site=render.com
+$boost=4,site=railway.app
+$boost=4,site=heroku.com
+
+! ============================================================
+! TIER 3 — Package Registries, Databases, DevOps, ORM/Data
+! ============================================================
+
+! --- Package Registries ---
+$boost=3,site=npmjs.com
+$boost=3,site=rubygems.org
+$boost=3,site=pypi.org
+$boost=3,site=crates.io
+$boost=3,site=pkg.go.dev
+$boost=3,site=search.maven.org
+$boost=3,site=nuget.org
+$boost=3,site=hex.pm
+$boost=3,site=packagist.org
+$boost=3,site=cocoapods.org
+$boost=3,site=pub.dev
+$boost=3,site=lib.rs
+
+! --- Database Documentation ---
+$boost=3,site=postgresql.org
+$boost=3,site=dev.mysql.com
+$boost=3,site=redis.io
+$boost=3,site=mongodb.com
+$boost=3,site=elastic.co
+$boost=3,site=sqlite.org
+$boost=3,site=mariadb.com
+$boost=3,site=cassandra.apache.org
+$boost=3,site=clickhouse.com
+$boost=3,site=neon.tech
+$boost=3,site=supabase.com
+$boost=3,site=planetscale.com
+$boost=3,site=cockroachlabs.com
+
+! --- ORM & Data Tools ---
+$boost=3,site=prisma.io
+$boost=3,site=orm.drizzle.team
+$boost=3,site=sequelize.org
+$boost=3,site=sqlalchemy.org
+$boost=3,site=typeorm.io
+$boost=3,site=jooq.org
+
+! --- DevOps & Infrastructure ---
+$boost=3,site=docs.docker.com
+$boost=3,site=kubernetes.io
+$boost=3,site=developer.hashicorp.com
+$boost=3,site=docs.ansible.com
+$boost=3,site=prometheus.io
+$boost=3,site=grafana.com
+$boost=3,site=nginx.org
+$boost=3,site=caddyserver.com
+$boost=3,site=traefik.io
+$boost=3,site=helm.sh
+
+! --- CI/CD ---
+$boost=3,site=docs.github.com
+$boost=3,site=docs.gitlab.com
+$boost=3,site=circleci.com
+$boost=3,site=jenkins.io
+
+! --- Version Control & Collaboration ---
+$boost=3,site=git-scm.com
+$boost=3,site=github.com
+$boost=3,site=gitlab.com
+
+! ============================================================
+! TIER 2 — Quality Reference, Tools, and Supplementary Docs
+! ============================================================
+
+! --- Web Platform Reference ---
+$boost=2,site=web.dev
+$boost=2,site=caniuse.com
+$boost=2,site=css-tricks.com
+$boost=2,site=a11yproject.com
+
+! --- Testing Frameworks ---
+$boost=2,site=jestjs.io
+$boost=2,site=vitest.dev
+$boost=2,site=playwright.dev
+$boost=2,site=cypress.io
+$boost=2,site=testing-library.com
+$boost=2,site=rspec.info
+$boost=2,site=docs.pytest.org
+
+! --- API & Auth Tools ---
+$boost=2,site=graphql.org
+$boost=2,site=trpc.io
+$boost=2,site=grpc.io
+$boost=2,site=swagger.io
+$boost=2,site=oauth.net
+$boost=2,site=jwt.io
+$boost=2,site=openapis.org
+
+! --- Code Quality & Linting ---
+$boost=2,site=eslint.org
+$boost=2,site=prettier.io
+$boost=2,site=rubocop.org
+$boost=2,site=babeljs.io
+$boost=2,site=postcss.org
+$boost=2,site=editorconfig.org
+
+! --- Mobile & Cross-Platform ---
+$boost=2,site=reactnative.dev
+$boost=2,site=flutter.dev
+$boost=2,site=expo.dev
+$boost=2,site=capacitorjs.com
+$boost=2,site=tauri.app
+$boost=2,site=electronjs.org
+
+! --- Messaging & Streaming ---
+$boost=2,site=kafka.apache.org
+$boost=2,site=rabbitmq.com
+$boost=2,site=nats.io
+$boost=2,site=zeromq.org
+
+! --- Monitoring & Observability ---
+$boost=2,site=sentry.io
+$boost=2,site=opentelemetry.io
+$boost=2,site=datadoghq.com
+$boost=2,site=newrelic.com
+
+! --- State Management & Libraries ---
+$boost=2,site=redux.js.org
+$boost=2,site=zustand-demo.pmnd.rs
+$boost=2,site=tanstack.com
+$boost=2,site=storybook.js.org
+
+! --- Other Developer Tools ---
+$boost=2,site=regex101.com
+$boost=2,site=jsonschema.dev
+$boost=2,site=semver.org
+
+! ============================================================
+! TIER 1 — Supplementary Resources
+! ============================================================
+
+$boost=1,site=w3schools.com
+$boost=1,site=geeksforgeeks.org
+$boost=1,site=tutorialspoint.com
+$boost=1,site=codecademy.com
+$boost=1,site=freecodecamp.org
+$boost=1,site=exercism.org
+$boost=1,site=codeproject.com
+$boost=1,site=hackr.io
+$boost=1,site=realpython.com
+$boost=1,site=baeldung.com
+/community^$boost=1,site=digitalocean.com
+
+! ============================================================
+! DOWNRANK — Low-Quality / Scraper / SEO Spam Sites
+! ============================================================
+
+$downrank=2,site=javatpoint.com
+$downrank=2,site=guru99.com
+$downrank=2,site=educba.com
+$downrank=2,site=simplilearn.com
+$downrank=2,site=intellipaat.com
+$downrank=2,site=edureka.co
+$downrank=2,site=knowledgehut.com
+$downrank=2,site=mygreatlearning.com
+$downrank=2,site=scaler.com
+$downrank=2,site=interviewbit.com
+$downrank=2,site=programiz.com
+$downrank=1,site=medium.com

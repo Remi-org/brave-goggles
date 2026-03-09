@@ -1,0 +1,126 @@
+! name: Shopping & Prices
+! description: Boosts price comparison engines, consumer review bodies, deal sites, and product review outlets worldwide
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Authoritative consumer testing organizations
+! ============================================================
+$boost=5,site=consumerreports.org
+$boost=5,site=which.co.uk
+$boost=5,site=test.de
+$boost=5,site=quechoisir.org
+
+! ============================================================
+! TIER 4 — Major price comparison and product review sites
+! ============================================================
+
+! Price comparison engines
+$boost=4,site=pricerunner.com
+$boost=4,site=idealo.com
+$boost=4,site=idealo.de
+$boost=4,site=camelcamelcamel.com
+$boost=4,site=shopping.google.com
+$boost=4,site=pricespy.co.uk
+$boost=4,site=skinflint.co.uk
+$boost=4,site=shopzilla.com
+
+! Product review sites (editorial)
+$boost=4,site=wirecutter.com
+$boost=4,site=rtings.com
+$boost=4,site=cnet.com
+$boost=4,site=techradar.com
+$boost=4,site=tomsguide.com
+$boost=4,site=tomshardware.com
+$boost=4,site=theverge.com
+
+! Consumer advocacy
+$boost=4,site=moneysavingexpert.com
+$boost=4,site=choice.com.au
+
+! ============================================================
+! TIER 3 — Deal aggregators, cashback, and regional review sites
+! ============================================================
+
+! Deal aggregators
+$boost=3,site=slickdeals.net
+$boost=3,site=hotukdeals.com
+$boost=3,site=mydealz.de
+$boost=3,site=dealnews.com
+$boost=3,site=ozbargain.com.au
+$boost=3,site=redflagdeals.com
+$boost=3,site=pepper.com
+
+! Coupon and cashback
+$boost=3,site=rakuten.com
+$boost=3,site=topcashback.co.uk
+$boost=3,site=topcashback.com
+$boost=3,site=retailmenot.com
+$boost=3,site=joinhoney.com
+$boost=3,site=vouchercodes.co.uk
+$boost=3,site=groupon.com
+$boost=3,site=coupons.com
+
+! Product review and comparison (broader)
+$boost=3,site=pcmag.com
+$boost=3,site=anandtech.com
+$boost=3,site=digitaltrends.com
+$boost=3,site=reviewed.com
+$boost=3,site=goodhousekeeping.com
+$boost=3,site=trustedreviews.com
+$boost=3,site=expertreviews.co.uk
+$boost=3,site=bestproducts.com
+
+! Specialty review sites
+$boost=3,site=dpreview.com
+$boost=3,site=soundguys.com
+$boost=3,site=headfi.org
+$boost=3,site=outdoorgearlab.com
+$boost=3,site=runnersworld.com
+
+! ============================================================
+! TIER 2 — Marketplace reviews, niche comparisons, regional sites
+! ============================================================
+
+! Price tracking and alerts
+$boost=2,site=keepa.com
+$boost=2,site=pricehistory.app
+$boost=2,site=pricena.com
+$boost=2,site=prisjakt.no
+$boost=2,site=hinta.fi
+$boost=2,site=tweakers.net
+
+! Consumer protection organizations
+$boost=2,site=consumerfed.org
+$boost=2,site=consumersinternational.org
+$boost=2,site=consumer-action.org
+$boost=2,site=ftc.gov
+$boost=2,site=beuc.eu
+
+! Review aggregators and forums
+$boost=2,site=trustpilot.com
+$boost=2,site=sitejabber.com
+$boost=2,site=producthunt.com
+$boost=2,site=bestreviews.com
+$boost=2,site=gadgetreview.com
+
+! Regional price comparison
+$boost=2,site=kelkoo.com
+$boost=2,site=shopbot.ca
+$boost=2,site=getprice.com.au
+$boost=2,site=bizrate.com
+$boost=2,site=nextag.com
+
+! ============================================================
+! TIER 1 — Niche and supplementary resources
+! ============================================================
+$boost=1,site=knoji.com
+$boost=1,site=savingsgrove.com
+$boost=1,site=moneycrashers.com
+$boost=1,site=nerdwallet.com
+$boost=1,site=hostelz.com
+$boost=1,site=pricebat.ca
+$boost=1,site=staticice.com.au
+$boost=1,site=skinflint.co.uk
+$boost=1,site=geizhals.de
+$boost=1,site=woot.com

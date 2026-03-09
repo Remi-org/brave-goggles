@@ -1,0 +1,160 @@
+! name: Food & Cooking
+! description: Boosts authoritative recipe platforms, food magazines, chef sites, nutrition databases, food safety authorities, and cooking blogs worldwide
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Major Recipe Platforms & Food Authority Sites
+! ============================================================
+
+! --- Major Recipe Platforms ---
+$boost=5,site=allrecipes.com
+$boost=5,site=bbcgoodfood.com
+$boost=5,site=foodnetwork.com
+$boost=5,site=epicurious.com
+$boost=5,site=seriouseats.com
+$boost=5,site=bonappetit.com
+$boost=5,site=kingarthurbaking.com
+$boost=5,site=americastestkitchen.com
+$boost=5,site=cookpad.com
+
+! --- Food Safety & Nutrition Authorities ---
+$boost=5,site=fda.gov
+$boost=5,site=food.gov.uk
+$boost=5,site=efsa.europa.eu
+$boost=5,site=fdc.nal.usda.gov
+$boost=5,site=nutrition.gov
+$boost=5,site=foodsafety.gov
+
+! ============================================================
+! TIER 4 — Food Magazines, Celebrity Chefs & Major Blogs
+! ============================================================
+
+! --- Food Magazines ---
+$boost=4,site=foodandwine.com
+$boost=4,site=deliciousmagazine.co.uk
+$boost=4,site=olivemagazine.com
+$boost=4,site=saveur.com
+$boost=4,site=eatingwell.com
+$boost=4,site=tastecooking.com
+$boost=4,site=cooking.nytimes.com
+/food^$boost=4,site=theguardian.com
+
+! --- Celebrity Chef & Restaurant Sites ---
+$boost=4,site=jamieoliver.com
+$boost=4,site=gordonramsay.com
+$boost=4,site=nigella.com
+$boost=4,site=marthastewart.com
+$boost=4,site=nigelslaterdotcom.com
+$boost=4,site=ottolenghi.co.uk
+
+! --- Top-Tier Food Blogs ---
+$boost=4,site=smittenkitchen.com
+$boost=4,site=recipetineats.com
+$boost=4,site=halfbakedharvest.com
+$boost=4,site=pinchofyum.com
+$boost=4,site=thekitchn.com
+
+! ============================================================
+! TIER 3 — International Cuisine, Dietary & Specialized Sites
+! ============================================================
+
+! --- International Cuisine ---
+$boost=3,site=justonecookbook.com
+$boost=3,site=maangchi.com
+$boost=3,site=chinasichuanfood.com
+$boost=3,site=indianhealthyrecipes.com
+$boost=3,site=mexicoinmykitchen.com
+$boost=3,site=greekfoodandrecipes.com
+$boost=3,site=196flavors.com
+$boost=3,site=wandercooks.com
+/food^$boost=3,site=bbc.co.uk
+$boost=3,site=delish.com
+
+! --- Vegan & Dietary ---
+$boost=3,site=minimalistbaker.com
+$boost=3,site=ohsheglows.com
+$boost=3,site=cookieandkate.com
+$boost=3,site=loveandlemons.com
+$boost=3,site=thefullhelping.com
+$boost=3,site=pickuplimes.com
+$boost=3,site=rainbowplantlife.com
+
+! --- Baking Focused ---
+$boost=3,site=sallysbakingaddiction.com
+$boost=3,site=handletheheat.com
+$boost=3,site=preppykitchen.com
+$boost=3,site=livewellbakeoften.com
+$boost=3,site=thepioneerwoman.com
+
+! --- Food Science & Technique ---
+$boost=3,site=stellaculinary.com
+$boost=3,site=chefsteps.com
+$boost=3,site=amazingribs.com
+
+! ============================================================
+! TIER 2 — Budget, Family & Regional Food Blogs
+! ============================================================
+
+! --- Budget & Family Cooking ---
+$boost=2,site=budgetbytes.com
+$boost=2,site=damndelicious.net
+$boost=2,site=skinnytaste.com
+$boost=2,site=iamafoodblog.com
+$boost=2,site=hostthetoast.com
+$boost=2,site=cafedelites.com
+
+! --- Nutrition Tracking & Databases ---
+$boost=2,site=myfitnesspal.com
+$boost=2,site=myfooddata.com
+$boost=2,site=cronometer.com
+$boost=2,site=nutritionvalue.org
+
+! --- Drinks & Beverages ---
+/drinks^$boost=2,site=seriouseats.com
+$boost=2,site=liquor.com
+$boost=2,site=vinepair.com
+$boost=2,site=winemag.com
+
+! --- Regional & Cultural Food Sites ---
+$boost=2,site=spanishsabores.com
+$boost=2,site=davidlebovitz.com
+$boost=2,site=mimithorisson.com
+$boost=2,site=germanfoodguide.com
+$boost=2,site=polishyourkitchen.com
+
+! --- Meal Planning & Prep ---
+$boost=2,site=cooksmarts.com
+$boost=2,site=mealime.com
+$boost=2,site=eatthismuch.com
+
+! ============================================================
+! TIER 1 — Supplementary & Reference Sources
+! ============================================================
+
+! --- Food Industry & Reference ---
+$boost=1,site=fsis.usda.gov
+$boost=1,site=eatright.org
+/nutritionsource^$boost=1,site=hsph.harvard.edu
+/healthy-lifestyle/recipes^$boost=1,site=mayoclinic.org
+
+! --- Kitchen Equipment & Technique Reviews ---
+/kitchen^$boost=1,site=wirecutter.com
+$boost=1,site=cooksillustrated.com
+$boost=1,site=tastingtable.com
+$boost=1,site=simplyrecipes.com
+$boost=1,site=inspiredtaste.net
+$boost=1,site=onceuponachef.com
+
+! --- Additional International ---
+$boost=1,site=taste.com.au
+$boost=1,site=chefkoch.de
+$boost=1,site=marmiton.org
+$boost=1,site=giallozafferano.it
+$boost=1,site=kochbar.de
+$boost=1,site=recetasgratis.net
+
+! --- Foraging & Specialty ---
+$boost=1,site=foragerchef.com
+$boost=1,site=honest-food.net
+$boost=1,site=foodprint.org

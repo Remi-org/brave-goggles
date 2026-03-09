@@ -1,0 +1,282 @@
+! name: Health & Medical
+! description: Boosts authoritative health, medical, and wellness sources including government agencies, medical journals, hospitals, research databases, and trusted consumer health sites from around the world.
+! public: true
+! author: Remi
+
+! ============================================================
+! TIER 5 — Global institutions, major government health agencies,
+!           and primary medical research databases
+! ============================================================
+
+! World Health Organization
+$boost=5,site=who.int
+
+! United States — NIH, CDC, FDA, NLM
+$boost=5,site=nih.gov
+$boost=5,site=cdc.gov
+$boost=5,site=fda.gov
+$boost=5,site=nlm.nih.gov
+$boost=5,site=medlineplus.gov
+$boost=5,site=pubmed.ncbi.nlm.nih.gov
+$boost=5,site=ncbi.nlm.nih.gov
+$boost=5,site=clinicaltrials.gov
+
+! United Kingdom — NHS
+$boost=5,site=nhs.uk
+
+! European Centre for Disease Prevention and Control
+$boost=5,site=ecdc.europa.eu
+
+! European Medicines Agency
+$boost=5,site=ema.europa.eu
+
+! Pan American Health Organization
+$boost=5,site=paho.org
+
+! ============================================================
+! TIER 4 — National health services, top medical institutions,
+!           and major clinical resources
+! ============================================================
+
+! Canada
+/en/health-canada^$boost=4,site=canada.ca
+$boost=4,site=phac-aspc.gc.ca
+
+! Australia
+$boost=4,site=health.gov.au
+$boost=4,site=tga.gov.au
+$boost=4,site=healthdirect.gov.au
+
+! Germany — Robert Koch Institute, BfArM
+$boost=4,site=rki.de
+$boost=4,site=bfarm.de
+
+! France — Sante publique France, HAS
+$boost=4,site=santepubliquefrance.fr
+$boost=4,site=has-sante.fr
+$boost=4,site=ansm.sante.fr
+
+! Japan — Ministry of Health, Labour and Welfare
+$boost=4,site=mhlw.go.jp
+
+! India — Ministry of Health
+$boost=4,site=mohfw.gov.in
+$boost=4,site=nhp.gov.in
+
+! Brazil — Ministry of Health
+/saude^$boost=4,site=gov.br
+
+! South Korea — KDCA
+$boost=4,site=kdca.go.kr
+
+! China — National Health Commission
+$boost=4,site=en.nhc.gov.cn
+
+! South Africa — Department of Health
+$boost=4,site=health.gov.za
+
+! Africa CDC
+$boost=4,site=africacdc.org
+
+! European Food Safety Authority
+$boost=4,site=efsa.europa.eu
+
+! Cochrane Library — systematic reviews
+$boost=4,site=cochranelibrary.com
+$boost=4,site=cochrane.org
+
+! Mayo Clinic
+$boost=4,site=mayoclinic.org
+
+! Cleveland Clinic
+$boost=4,site=clevelandclinic.org
+
+! Johns Hopkins Medicine
+$boost=4,site=hopkinsmedicine.org
+
+! UpToDate — clinical decision support
+$boost=4,site=uptodate.com
+
+! Medscape — clinical reference
+$boost=4,site=medscape.com
+
+! ============================================================
+! TIER 3 — Major medical journals and trusted clinical resources
+! ============================================================
+
+! The New England Journal of Medicine
+$boost=3,site=nejm.org
+
+! The Lancet family
+$boost=3,site=thelancet.com
+
+! JAMA Network
+$boost=3,site=jamanetwork.com
+
+! The BMJ
+$boost=3,site=bmj.com
+
+! Nature Medicine / Nature
+/nm^$boost=3,site=nature.com
+/medicine^$boost=3,site=nature.com
+
+! Science / AAAS
+$boost=3,site=science.org
+
+! PLOS Medicine
+$boost=3,site=journals.plos.org
+
+! Annals of Internal Medicine
+$boost=3,site=acpjournals.org
+
+! Cell
+$boost=3,site=cell.com
+
+! American Heart Association journals
+$boost=3,site=ahajournals.org
+
+! Diabetes journals
+$boost=3,site=diabetesjournals.org
+
+! Massachusetts General Hospital
+$boost=3,site=massgeneral.org
+
+! Mount Sinai
+$boost=3,site=mountsinai.org
+
+! Stanford Health Care
+$boost=3,site=stanfordhealthcare.org
+
+! UCSF Health
+$boost=3,site=ucsfhealth.org
+
+! Charite Berlin
+$boost=3,site=charite.de
+
+! Karolinska Institute
+$boost=3,site=ki.se
+
+! U.S. SAMHSA — Substance Abuse and Mental Health
+$boost=3,site=samhsa.gov
+
+! AHRQ — Agency for Healthcare Research and Quality
+$boost=3,site=ahrq.gov
+
+! HRSA — Health Resources and Services Administration
+$boost=3,site=hrsa.gov
+
+! WHO IRIS — institutional repository
+$boost=3,site=iris.who.int
+
+! ============================================================
+! TIER 2 — Quality consumer health sites, disease-specific orgs,
+!           regional authorities, and drug databases
+! ============================================================
+
+! Consumer health
+$boost=2,site=healthline.com
+$boost=2,site=webmd.com
+$boost=2,site=verywellhealth.com
+$boost=2,site=patient.info
+$boost=2,site=medicalnewstoday.com
+
+! Drug information
+$boost=2,site=drugs.com
+$boost=2,site=rxlist.com
+$boost=2,site=drugbank.com
+$boost=2,site=goodrx.com
+
+! Disease-specific organizations
+$boost=2,site=cancer.org
+$boost=2,site=cancer.gov
+$boost=2,site=heart.org
+$boost=2,site=diabetes.org
+$boost=2,site=alz.org
+$boost=2,site=lung.org
+$boost=2,site=epilepsy.com
+$boost=2,site=arthritis.org
+
+! Mental health organizations
+$boost=2,site=nami.org
+$boost=2,site=mhanational.org
+$boost=2,site=mind.org.uk
+$boost=2,site=mentalhealth.org.uk
+$boost=2,site=beyondblue.org.au
+$boost=2,site=psychiatry.org
+
+! Nutrition and food safety
+$boost=2,site=nutrition.gov
+$boost=2,site=eatright.org
+/nutrition^$boost=2,site=who.int
+
+! International Red Cross / Red Crescent
+$boost=2,site=icrc.org
+$boost=2,site=ifrc.org
+
+! Doctors Without Borders
+$boost=2,site=msf.org
+$boost=2,site=doctorswithoutborders.org
+
+! Global Fund
+$boost=2,site=theglobalfund.org
+
+! GAVI — Vaccine Alliance
+$boost=2,site=gavi.org
+
+! UNAIDS
+$boost=2,site=unaids.org
+
+! UNICEF Health
+$boost=2,site=unicef.org
+
+! ============================================================
+! TIER 1 — Supplementary trusted sources, professional bodies,
+!           and additional regional health authorities
+! ============================================================
+
+! Professional medical associations
+$boost=1,site=ama-assn.org
+$boost=1,site=rcplondon.ac.uk
+$boost=1,site=aafp.org
+$boost=1,site=acog.org
+$boost=1,site=aap.org
+
+! Medical education and reference
+/science/health-and-medicine^$boost=1,site=khanacademy.org
+$boost=1,site=merckmanuals.com
+$boost=1,site=osmosis.org
+$boost=1,site=radiopaedia.org
+
+! Additional hospitals and academic medical centers
+$boost=1,site=cedars-sinai.org
+$boost=1,site=pennmedicine.org
+$boost=1,site=nyulangone.org
+$boost=1,site=uclahealth.org
+$boost=1,site=uchicagomedicine.org
+$boost=1,site=dukehealth.org
+
+! Fitness and wellness (evidence-based)
+$boost=1,site=acefitness.org
+$boost=1,site=acsm.org
+$boost=1,site=sleepfoundation.org
+
+! Additional country health agencies
+$boost=1,site=fhi.no
+$boost=1,site=thl.fi
+$boost=1,site=rivm.nl
+$boost=1,site=sciensano.be
+$boost=1,site=folkhalsomyndigheten.se
+$boost=1,site=ssi.dk
+$boost=1,site=bag.admin.ch
+$boost=1,site=ispch.cl
+$boost=1,site=salud.gob.mx
+
+! Rare diseases
+$boost=1,site=rarediseases.org
+$boost=1,site=orpha.net
+
+! Poison control
+$boost=1,site=poison.org
+
+! Health fact-checking
+$boost=1,site=healthfeedback.org
