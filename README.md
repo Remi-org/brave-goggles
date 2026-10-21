@@ -45,11 +45,15 @@ Some goggles also downrank known low-quality sources using `$downrank`.
 
 ## Usage
 
-Register a goggle at [search.brave.com/goggles/create](https://search.brave.com/goggles/create) using the raw GitHub URL, then pass it as `goggles_id` in the Brave Search API:
+Send a goggle's definition, the text of its `.goggle` file, as the `goggles` parameter of the Brave Search API. A request takes up to three. The definition works without registering anything, and a file of about 8 KB still fits in a GET:
 
 ```
-GET https://api.search.brave.com/res/v1/web/search?q=symptoms+of+flu&goggles_id=https://raw.githubusercontent.com/Remi-org/brave-goggles/main/health.goggle
+GET https://api.search.brave.com/res/v1/web/search?q=symptoms+of+flu&goggles=<URL-encoded text of health.goggle>
 ```
+
+The `goggles` parameter also takes a hosted goggle's URL, but Brave ignores the URL until the goggle is registered at [search.brave.com/goggles/create](https://search.brave.com/goggles/create), and the results come back as if no goggle had been sent. `goggles_id` is deprecated.
+
+Remi sends the definition inline. The api keeps a copy of each file in `config/web_search_goggles/` and sends the one for the search's category, so a change here reaches Remi when that copy is updated.
 
 ## Design Principles
 
